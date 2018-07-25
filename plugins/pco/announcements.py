@@ -7,7 +7,7 @@ class ScheduledAnnounce(WillPlugin):
 
     # @hear("announce birthdays")
     # @periodic(hour='14', minute='10')  # at a certain time
-    @periodic(hour='10', minute='10')  # at a certain time
+    @periodic(hour='11', minute='40')  # at a certain time
     def announce_birthdays(self, channel='announcements'):
         birthday.announce_todays_birthdays(self, channel=channel)
 
