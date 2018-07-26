@@ -57,6 +57,8 @@ Make a list of your environment variables.
 | WILL_SECRET_KEY	       | [Make your own](https://www.random.org/strings/?num=10&len=20&digits=on&loweralpha=on&unique=on&format=html&rnd=new```)  | - |    
 | WILL_SLACK_DEFAULT_CHANNEL   | bot  |  bot |    
 
+**Note:** When you create your Slack API Key, do not provide a "Full Name" for the bot that is different than the username.
+
 #### Heroku-Only
 | Env Var      		       | Value   										|  Example   |   
 | ------------- 	       |--------------										| --------   |
