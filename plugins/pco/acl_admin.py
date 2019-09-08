@@ -64,6 +64,6 @@ def get_acl_groups():
 
 
 if __name__ == '__main__':
-    acl = "botadmin"
+    acl = {"botadmin":["froz"]}
     list = get_acl_groups()
     print(str(list))
